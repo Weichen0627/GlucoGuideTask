@@ -14,6 +14,13 @@
 		5E83D63F1B43B6C40043AC7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E83D63E1B43B6C40043AC7F /* Images.xcassets */; };
 		5E83D6421B43B6C40043AC7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E83D6401B43B6C40043AC7F /* LaunchScreen.xib */; };
 		5E83D64E1B43B6C40043AC7F /* GlucoGuideTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83D64D1B43B6C40043AC7F /* GlucoGuideTaskTests.m */; };
+		5ED0CB031B43FB420030BDD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED0CB021B43FB420030BDD9 /* Foundation.framework */; };
+		5ED0CB071B4407720030BDD9 /* AuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0CB061B4407720030BDD9 /* AuthorizeView.m */; };
+		5ED0CB0A1B4407E30030BDD9 /* AuthorizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0CB091B4407E30030BDD9 /* AuthorizeController.m */; };
+		5ED0CB0E1B446F710030BDD9 /* UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0CB0D1B446F710030BDD9 /* UrlEncode.m */; };
+		5ED0CB131B447DBA0030BDD9 /* SizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0CB121B447DBA0030BDD9 /* SizeView.m */; };
+		5ED0CB1B1B44B5240030BDD9 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0CB1A1B44B5240030BDD9 /* ShowViewController.m */; };
+		5ED0CB1D1B44B5470030BDD9 /* ShowStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0CB1C1B44B5470030BDD9 /* ShowStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,20 @@
 		5E83D6471B43B6C40043AC7F /* GlucoGuideTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoGuideTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E83D64C1B43B6C40043AC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E83D64D1B43B6C40043AC7F /* GlucoGuideTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlucoGuideTaskTests.m; sourceTree = "<group>"; };
+		5ED0CB021B43FB420030BDD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ED0CB061B4407720030BDD9 /* AuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeView.m; sourceTree = "<group>"; };
+		5ED0CB081B4407920030BDD9 /* AuthorizeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizeView.h; sourceTree = "<group>"; };
+		5ED0CB091B4407E30030BDD9 /* AuthorizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeController.m; sourceTree = "<group>"; };
+		5ED0CB0B1B4407F60030BDD9 /* AuthorizeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizeController.h; sourceTree = "<group>"; };
+		5ED0CB0C1B440C700030BDD9 /* Initializor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Initializor.h; sourceTree = "<group>"; };
+		5ED0CB0D1B446F710030BDD9 /* UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlEncode.m; sourceTree = "<group>"; };
+		5ED0CB0F1B446F830030BDD9 /* UrlEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlEncode.h; sourceTree = "<group>"; };
+		5ED0CB101B447D040030BDD9 /* AuthorizeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizeDelegate.h; sourceTree = "<group>"; };
+		5ED0CB111B447DAC0030BDD9 /* SizeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SizeView.h; sourceTree = "<group>"; };
+		5ED0CB121B447DBA0030BDD9 /* SizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeView.m; sourceTree = "<group>"; };
+		5ED0CB191B44B5240030BDD9 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		5ED0CB1A1B44B5240030BDD9 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		5ED0CB1C1B44B5470030BDD9 /* ShowStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShowStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED0CB031B43FB420030BDD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 		5E83D6251B43B6C40043AC7F = {
 			isa = PBXGroup;
 			children = (
+				5ED0CB021B43FB420030BDD9 /* Foundation.framework */,
 				5E83D6301B43B6C40043AC7F /* GlucoGuideTask */,
 				5E83D64A1B43B6C40043AC7F /* GlucoGuideTaskTests */,
 				5E83D62F1B43B6C40043AC7F /* Products */,
@@ -81,11 +104,24 @@
 		5E83D6301B43B6C40043AC7F /* GlucoGuideTask */ = {
 			isa = PBXGroup;
 			children = (
+				5ED0CB0C1B440C700030BDD9 /* Initializor.h */,
 				5E83D6351B43B6C40043AC7F /* AppDelegate.h */,
 				5E83D6361B43B6C40043AC7F /* AppDelegate.m */,
+				5ED0CB101B447D040030BDD9 /* AuthorizeDelegate.h */,
 				5E83D6381B43B6C40043AC7F /* ViewController.h */,
 				5E83D6391B43B6C40043AC7F /* ViewController.m */,
 				5E83D63B1B43B6C40043AC7F /* Main.storyboard */,
+				5ED0CB191B44B5240030BDD9 /* ShowViewController.h */,
+				5ED0CB1A1B44B5240030BDD9 /* ShowViewController.m */,
+				5ED0CB1C1B44B5470030BDD9 /* ShowStoryboard.storyboard */,
+				5ED0CB0B1B4407F60030BDD9 /* AuthorizeController.h */,
+				5ED0CB091B4407E30030BDD9 /* AuthorizeController.m */,
+				5ED0CB081B4407920030BDD9 /* AuthorizeView.h */,
+				5ED0CB061B4407720030BDD9 /* AuthorizeView.m */,
+				5ED0CB0F1B446F830030BDD9 /* UrlEncode.h */,
+				5ED0CB0D1B446F710030BDD9 /* UrlEncode.m */,
+				5ED0CB111B447DAC0030BDD9 /* SizeView.h */,
+				5ED0CB121B447DBA0030BDD9 /* SizeView.m */,
 				5E83D63E1B43B6C40043AC7F /* Images.xcassets */,
 				5E83D6401B43B6C40043AC7F /* LaunchScreen.xib */,
 				5E83D6311B43B6C40043AC7F /* Supporting Files */,
@@ -201,6 +237,7 @@
 			files = (
 				5E83D63D1B43B6C40043AC7F /* Main.storyboard in Resources */,
 				5E83D6421B43B6C40043AC7F /* LaunchScreen.xib in Resources */,
+				5ED0CB1D1B44B5470030BDD9 /* ShowStoryboard.storyboard in Resources */,
 				5E83D63F1B43B6C40043AC7F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED0CB0A1B4407E30030BDD9 /* AuthorizeController.m in Sources */,
+				5ED0CB071B4407720030BDD9 /* AuthorizeView.m in Sources */,
+				5ED0CB0E1B446F710030BDD9 /* UrlEncode.m in Sources */,
 				5E83D63A1B43B6C40043AC7F /* ViewController.m in Sources */,
 				5E83D6371B43B6C40043AC7F /* AppDelegate.m in Sources */,
+				5ED0CB131B447DBA0030BDD9 /* SizeView.m in Sources */,
 				5E83D6341B43B6C40043AC7F /* main.m in Sources */,
+				5ED0CB1B1B44B5240030BDD9 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				5E83D6531B43B6C40043AC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E83D6541B43B6C40043AC7F /* Build configuration list for PBXNativeTarget "GlucoGuideTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				5E83D6561B43B6C40043AC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  ShowViewController.h
 //  GlucoGuideTask
 //
 //  Created by Weichen Liu on 15/7/1.
 //  Copyright (c) 2015年 Weichen Liu. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-#import "AuthorizeController.h"
-
-@interface ViewController : UIViewController <AuthorizeDelegate>
+@interface ShowViewController : UIViewController
 
 @end
-
